@@ -1,10 +1,14 @@
-###Bootboxjs - Meteor Smart Package
+###Bootboxjs - Meteor Smart Package w/o Bootstrap 3 dependency
 
 This is a the [bootboxjs bootstrap plugin](http://bootboxjs.com) as a meteor smart package.
 
 ###How to use?
 
-1. Install [meteorite](https://github.com/oortcloud/meteorite)
-2. `mrt add bootboxjs`
+In your smart.json:
 
-Check out the [bootboxjs api](http://bootboxjs.com) for more details.
+```
+"bootboxjs": {
+  "git": "https://github.com/usefulio/meteor-bootboxjs.git",
+  "branch": "master"
+}
+```
